@@ -1,0 +1,48 @@
+This is my step by step action taken for work with django project.
+in cmd:
+3. create project folder: mkdir django_fsi
+1. create environments: python -m venv venv_django
+2. activate environments: venv_django\Scripts\activate
+7. upgrade pip: python.exe -m pip install --upgrade pip
+4. install Django in environments: pip install django
+5. check Django version: django-admin --version
+6. create .gitignore : copy nul .gitignore
+8. download JUPYTER LAB: pip install jupyterlab
+
+9. Установите полезные расширения, например:
+	- jupyterlab-git — интеграция с Git.
+	- jupyterlab-github
+	- jupyterlab-code-formatter — автоформатирование кода (например, с помощью Black).
+	- variable-inspector — просмотр переменных в сессии.
+	- jupyterlab-code-snippets
+	- jupyterlab-latex
+	- Добавьте в файл строку, чтобы указать оболочку для терминала (для Windows): c.ServerApp.terminado_settings = {'shell_command': ['cmd.exe']}
+
+
+10. Если репозиторий ещё не инициализирован, выполните: git init
+11. Добавьте все файлы проекта в индекс: git add .
+12. Сделайте первый коммит: git commit -m "Initial commit"
+13. Добавьте удалённый репозиторий с именем origin: git remote add origin https://github.com/RyderZ06/django_fsi.git
+14. Отправьте локальные изменения в удалённый репозиторий: git push -u origin master
+15. На другом компьютере клонируйте репозиторий командой: git clone https://github.com/RyderZ06/django_fsi.git
+15.1. Проверить текущие настройки можно так:
+	- git config --global user.name
+	- git config --global user.email
+15.2. Чтобы настроить имя пользователя и email в Git, которые будут отображаться в коммитах, используйте следующие команды в терминале:
+	- git config --global user.name "Ваше Имя"
+	- git config --global user.email "ваш_email@example.com"
+
+16. create Django project:  D:\django_fsi>django-admin startproject django_fsi_project
+
+17. КУЛЬТОВЫЕ ФАЙЛЫ:
+	17.1. manage.py - запускает сервер и организует все процессы ("мама" джанго проекта).
+	17.2. settings.py - хранит все пароли, настройки, знает где что лежит ("Батя" проекта).
+	17.3. uruls.py - направляет http запросы к нужным view-функциям.
+	17.4. models.py - взаимодействуют с базой данных
+	17.5. views.py - соединяет данные и шаблоны. Принимает http запросы и отправляет http ответы.
+	17.6. templates\ - Фронтенд
+
+18. start web-program: manage.py runserver
+19. exit web-program: Ctrl+C
+20. create database: python manage.py migrate
+21. create django application: manage.py startapp firstpage
