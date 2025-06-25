@@ -16,6 +16,7 @@ in cmd:
 	- variable-inspector — просмотр переменных в сессии.
 	- jupyterlab-code-snippets
 	- jupyterlab-latex
+	- jupyterlab-lsp
 	- Добавьте в файл строку, чтобы указать оболочку для терминала (для Windows): c.ServerApp.terminado_settings = {'shell_command': ['cmd.exe']}
 
 
@@ -46,3 +47,10 @@ in cmd:
 19. exit web-program: Ctrl+C
 20. create database: python manage.py migrate
 21. create django application: manage.py startapp firstpage
+
+# CMD COMMANDS FOR UPDATE:
+Обновите pip: pip install --upgrade pip
+Обновите JupyterLab: pip install --upgrade jupyterlab
+Проверьте версию: pip show jupyterlab
+или jupyter-lab --version
+
