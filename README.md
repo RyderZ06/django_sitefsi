@@ -2,8 +2,8 @@
 
 ## Используемые технологии
 
-![Version](https://img.shields.io/badge/project%20ver-0.1-brightgreen)
-![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)
+![Version](https://img.shields.io/badge/project%20ver-0.1-brightgreen)  
+![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)  
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue?logo=python&logoColor=white)  
 ![pandas](https://img.shields.io/badge/pandas-data%20analysis-blue?logo=pandas&logoColor=white)  
 ![openpyxl](https://img.shields.io/badge/openpyxl-Excel%20import%2Fexport-007ACC?logo=python&logoColor=white)  
