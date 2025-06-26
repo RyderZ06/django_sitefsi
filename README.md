@@ -1,30 +1,5 @@
 # WEB-SITE FLIGHT SAFETY INSPECTION
 
-## Статус и Технологии
-
-| Назначение                | Бейджи и описание                                                                                                                           |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Версия проекта**         | ![Version](https://img.shields.io/badge/project_version-ver.0.1-brightgreen) |
-| **Python версия**         | ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)                                         |
-| **Django версия**         | ![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)                                         |
-| **pandas**                | ![pandas](https://img.shields.io/badge/pandas-data%20analysis-blue?logo=pandas&logoColor=white)                                         |
-| **openpyxl**              | ![openpyxl](https://img.shields.io/badge/openpyxl-Excel%20import%2Fexport-007ACC?logo=python&logoColor=white)          |
-| **Анализ данных**         | ![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-Data%20Analysis-orange?logo=jupyter&logoColor=white)                                 |
-| **Запуск проекта**        | ![Run Server](https://img.shields.io/badge/run_project-manage.py runserver-brightgreen)                      |
-
-
-## Используемые технологии
-
-| Назначение          | Бейджи и описание                                                                                           |
-|---------------------|-------------------------------------------------------------------------------------------------------------|
-| **Версия проекта**   | ![Version](https://img.shields.io/badge/project%20ver-0.1-brightgreen)
-| **Python версия**    | ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)|
-| **Django версия**    | ![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)|
-| **pandas**          | ![pandas](https://img.shields.io/badge/pandas-data%20analysis-blue?logo=pandas&logoColor=white)|
-| **openpyxl**        | ![openpyxl](https://img.shields.io/badge/openpyxl-Excel%20import%2Fexport-007ACC?logo=python&logoColor=white)|
-| **Анализ данных**    | ![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-IDE%20Data%20Analysis-orange?logo=jupyter&logoColor=white)|
-| **Запуск проекта**   | ![Run Server](https://img.shields.io/badge/runserver-manage.py%20runserver-brightgreen)|
-
 ## Используемые технологии
 
 ![Version](https://img.shields.io/badge/project%20ver-0.1-brightgreen)  
@@ -32,13 +7,13 @@
 ![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)  
 ![pandas](https://img.shields.io/badge/pandas-data%20analysis-blue?logo=pandas&logoColor=white)  
 ![openpyxl](https://img.shields.io/badge/openpyxl-Excel%20import%2Fexport-007ACC?logo=python&logoColor=white)  
-![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-IDE%20Data%20Analysis-orange?logo=jupyter&logoColor=white)  
+![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-IDE%20&%20Data%20Analysis-orange?logo=jupyter&logoColor=white)  
 ![Run Server](https://img.shields.io/badge/runserver-manage.py%20runserver-brightgreen)
 
 
 ## Используемые технологии
 
-![Version](https://img.shields.io/badge/project%20ver-0.1-brightgreen) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white) ![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-data%20analysis-blue?logo=pandas&logoColor=white) ![openpyxl](https://img.shields.io/badge/openpyxl-Excel%20import%2Fexport-007ACC?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-IDE%20Data%20Analysis-orange?logo=jupyter&logoColor=white) ![Run Server](https://img.shields.io/badge/runserver-manage.py%20runserver-brightgreen)
+![Version](https://img.shields.io/badge/project%20ver-0.1-brightgreen) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white) ![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-data%20analysis-blue?logo=pandas&logoColor=white) ![openpyxl](https://img.shields.io/badge/openpyxl-Excel%20import%2Fexport-007ACC?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-IDE%20&%20Data%20Analysis-orange?logo=jupyter&logoColor=white) ![Run Server](https://img.shields.io/badge/runserver-manage.py%20runserver-brightgreen)
 
 ## Описание
 Веб-приложение для управления данными инспекционных проверок, разработанное на базе Django 5.2.3. Позволяет вводить, сохранять и просматривать записи аудита с различными параметрами и статусами. Все данные хранятся в реляционной базе данных, что обеспечивает надежность, масштабируемость и удобный доступ из любой точки с помощью браузера.
