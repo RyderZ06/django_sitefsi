@@ -4,8 +4,7 @@
 
 | Назначение                | Бейджи и описание                                                                                                                           |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Статус сборки**         | ![Build Status](https://github.com/jupyter-widgets/ipywidgets/actions/workflows/tests.yml/badge.svg?query=branch%3Amain) <br> *Автоматические тесты и CI* |
-| **Документация**          | ![Docs](https://img.shields.io/readthedocs/django_sitefsi?logo=read-the-docs) <br> *Актуальная документация проекта*                         |
+| **Версия проекта**         | ![Version](https://img.shields.io/badge/version-ver.0.1-brightgreen) |
 | **Python версия**         | ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)                                         |
 | **Django версия**         | ![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)                                         |
 | **pandas**                | ![pandas](https://img.shields.io/badge/pandas-data%20analysis-blue?logo=pandas&logoColor=white)                                         |
