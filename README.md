@@ -8,6 +8,17 @@
 |                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 
+**Latest (`main`: future 0.1)**  
+![Create App](https://github.com/jupyter-widgets/ipywidgets/actions/workflows/tests.yml/badge.svg?query=branch%3Amain)  
+*Статус сборки проекта*
+
+![App Status: latest](https://img.shields.io/readthedocs/ipywidgets?logo=read-the-docs)  
+*Статус документации*
+
+![Binder:main](https://mybinder.org/badge_logo.svg)  
+*Интерактивный запуск в Binder*
+
+
 ## Описание
 Веб-приложение для управления данными инспекционных проверок, разработанное на базе Django 5.2.3. Позволяет вводить, сохранять и просматривать записи аудита с различными параметрами и статусами. Все данные хранятся в реляционной базе данных, что обеспечивает надежность, масштабируемость и удобный доступ из любой точки с помощью браузера.
 
