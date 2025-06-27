@@ -1,7 +1,13 @@
-from django.urls import path
+from django.urls import path, register_converter
 from . import views
+from . import converters
+
+register_converter(converters.FourDigitYearConverter, "year4")
 
 urlpatterns = [
-    path('', views.index), # http://127.0.0.1:8000/staff/
-    path('cats/', views.categories), # http://127.0.0.1:8000/cat/
+    path('', views.index, name='home'), # http://127.0.0.1:8000/staff/
+    path('about/', views.about, name='about'),
+    path('cats/<int:cat_id>/', views.categories, name='cats_id'), # http://127.0.0.1:8000/cat/1/
+    path('cats/<slug:cat_slug>/', views.categories_by_slug, name='cats'), # http://127.0.0.1:8000/cat/ddd1/
+    path('archive/<year4:year>/', views.archive, name='archive'),
 ]
