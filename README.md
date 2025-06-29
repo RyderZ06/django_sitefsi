@@ -30,7 +30,8 @@
 | Название папки                | Бейджи и описание                                                                                                                           |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | **`flightsafetyinspection/`**         |![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)  
-| **`flightsafetyinspection/`** | ![Django](https://img.shields.io/badge/django-основной%20модуль%20Django--проекта-green?logo=django&logoColor=white) |
+| **`flightsafetyinspection/`** | ![Django](https://img.shields.io/badge/django-основной%20модуль%20Django--проекта-green?logo=django&logoColor=white) |  
+| **`flightsafetyinspection/`** | ![Django](https://img.shields.io/badge/flightsafetyinspection-основной%20модуль%20Django--проекта-green?logo=django&logoColor=white) |
 
 
 ## Планы развития
