@@ -18,38 +18,40 @@
 Все `данные хранятся в реляционной базе данных`, что гарантирует их `надёжность`, `масштабируемость` и обеспечивает удобный и безопасный доступ к информации из любой точки посредством веб-браузера.
 
 ## Структура проекта
-- `flightsafetyinspection/` — основной модуль Django-проекта.
-- `.djvenv/` — виртуальное окружение.
 - `templates/` — HTML-шаблоны для веб-интерфейса.
 - `static/` — статические файлы (CSS, JS, изображения).
 - `requirements.txt` — список зависимостей проекта.
 - `README.md` — описание проекта и инструкции по запуску.
 
 ## Структура проекта
-| Принадлежность                | Бейджи / Название папки / описание                                                                                                                           |
+| Технология                | Бейджи / Название папки / описание |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | **`Django`** | ![Django](https://img.shields.io/badge/flightsafetyinspection-основной%20модуль%20Django--проекта-brightgreen?logo=django&logoColor=white) |
-| **`Python`** | ![Python](https://img.shields.io/badge/.djvenv-виртуальное%20окружение-blue?logo=python&logoColor=white) |  
+| **`Python`** | ![Python](https://img.shields.io/badge/.djvenv-виртуальное%20окружение-orange?logo=python&logoColor=white) |  
 | **`Python`** | ![Python](https://img.shields.io/badge/requirements.txt-список%20зависимостей%20проекта-blue?logo=python&logoColor=white) |
 | **`GitHub`** | ![GitHub](https://img.shields.io/badge/README.md-описание%20проекта-blue?logo=github&logoColor=white) |
 
 
 ## Планы развития
-- Расширение функциональности аудита, добавление фильтрации и поиска записей.
-- `Реализация системы ролей и прав доступа.`
-- Интеграция с внешними сервисами и экспорт данных.
-- `Поддержка работы с мобильных устройств.`
+| Статус                | Бейджи / промежуточный статус / задача |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **`OPEN`** | ![GitHub](https://img.shields.io/badge/open-написание%20шаблонов%20HTML%20&%20CSS%20файлов-yellow?logo=github&logoColor=white) |
+| **`OPEN`** | ![GitHub](https://img.shields.io/badge/open-наполнение%20БД%20информацией%20по%20сотрудникам%20инспекции-yellow?logo=github&logoColor=white) |
+| **`OPEN`** | ![GitHub](https://img.shields.io/badge/open-Расширение%20функциональности%20аудита,%20добавление%20фильтрации%20и%20поиска%20записей-yellow?logo=github&logoColor=white) |
+| **`OPEN`** | ![GitHub](https://img.shields.io/badge/open-Реализация%20системы%20ролей%20и%20прав%20доступа-yellow?logo=github&logoColor=white) |
+| **`OPEN`** | ![GitHub](https://img.shields.io/badge/open-Интеграция%20с%20внешними%20сервисами%20и%20экспорт%20данных-yellow?logo=github&logoColor=white) |
+| **`OPEN`** | ![GitHub](https://img.shields.io/badge/open-Поддержка%20работы%20с%20мобильных%20устройств-yellow?logo=github&logoColor=white) |
 
-## Требования
-- `Python 3.10+`
-- `Django 5.2.3`
-- `djangorestframework` (при необходимости API)
-- `pandas`, `openpyxl` (для импорта/экспорта данных в Excel)
-- Другие зависимости указаны в `requirements.txt`
+## **`Требования`**
+![Python](https://img.shields.io/badge/python-3.12%2B-blue?logo=python&logoColor=white)  
+![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)  
+![pandas](https://img.shields.io/badge/pandas-для%20импорта/экспорта%20данных%20в%20Excel-blue?logo=pandas&logoColor=white)  
+![openpyxl](https://img.shields.io/badge/openpyxl-для%20импорта/экспорта%20данных%20в%20Excel-007ACC?logo=python&logoColor=white)  
+![GitHub](https://img.shields.io/badge/дополнительно%20смотри-requirements.txt-orange?logo=github&logoColor=white)
 
 ## Используемая IDLE
-- `Jupyter Lab` (для анализа и обработки данных)
+![Jupyter](https://img.shields.io/badge/Jupyter%20Lab-IDE%20&%20для%20анализа%20и%20обработки%20данных-orange?logo=jupyter&logoColor=white) 
 - Любая современная IDE для Python (PyCharm, VSCode и др.)
 
 ## Запуск
-Выполнить `python manage.py runserver` для запуска сайта.
+![Run Server](https://img.shields.io/badge/запуск%20сайта-python%20manage.py%20runserver-brightgreen)
