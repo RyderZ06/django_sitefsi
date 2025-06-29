@@ -20,18 +20,18 @@
 ## Структура проекта
 - `flightsafetyinspection/` — основной модуль Django-проекта.
 - `.djvenv/` — виртуальное окружение.
-- `apps/` — директория с приложениями (например, audit, users и т.д.).
 - `templates/` — HTML-шаблоны для веб-интерфейса.
 - `static/` — статические файлы (CSS, JS, изображения).
 - `requirements.txt` — список зависимостей проекта.
 - `README.md` — описание проекта и инструкции по запуску.
 
 ## Структура проекта
-| Название папки                | Бейджи и описание                                                                                                                           |
+| Принадлежность                | Бейджи / Название папки / описание                                                                                                                           |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **`flightsafetyinspection/`**         |![Django](https://img.shields.io/badge/django-5.2.3-green?logo=django&logoColor=white)  
-| **`flightsafetyinspection/`** | ![Django](https://img.shields.io/badge/django-основной%20модуль%20Django--проекта-green?logo=django&logoColor=white) |  
-| **`flightsafetyinspection/`** | ![Django](https://img.shields.io/badge/flightsafetyinspection-основной%20модуль%20Django--проекта-green?logo=django&logoColor=white) |
+| **`Django`** | ![Django](https://img.shields.io/badge/flightsafetyinspection-основной%20модуль%20Django--проекта-green?logo=django&logoColor=white) |
+| **`Python`** | ![Python](https://img.shields.io/badge/.djvenv-виртуальное%20окружение-blue?logo=python&logoColor=white) |  
+| **`Python`** | ![Python](https://img.shields.io/badge/requirements.txt-список%20зависимостей%20проекта-blue?logo=python&logoColor=white) |
+| **`Python`** | ![Python](https://img.shields.io/badge/requirements.txt-список%20зависимостей%20проекта-blue?logo=python&logoColor=white) |
 
 
 ## Планы развития
