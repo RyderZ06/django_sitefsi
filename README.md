@@ -28,7 +28,7 @@
 ## Структура проекта
 | Принадлежность                | Бейджи / Название папки / описание                                                                                                                           |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **`Django`** | ![Django](https://img.shields.io/badge/flightsafetyinspection-основной%20модуль%20Django--проекта-green?logo=django&logoColor=white) |
+| **`Django`** | ![Django](https://img.shields.io/badge/flightsafetyinspection-основной%20модуль%20Django--проекта-brightgreen?logo=django&logoColor=white) |
 | **`Python`** | ![Python](https://img.shields.io/badge/.djvenv-виртуальное%20окружение-blue?logo=python&logoColor=white) |  
 | **`Python`** | ![Python](https://img.shields.io/badge/requirements.txt-список%20зависимостей%20проекта-blue?logo=python&logoColor=white) |
 | **`GitHub`** | ![GitHub](https://img.shields.io/badge/README.md-описание%20проекта-blue?logo=github&logoColor=white) |
