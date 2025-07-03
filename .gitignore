@@ -3,11 +3,10 @@ __pycache__/
 *.py[codz]
 
 # Environments
-djvenv/
+.djvenv/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
 
 # C extensions
 *.so
