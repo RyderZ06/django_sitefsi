@@ -1,5 +1,0 @@
-{
-  "packageManager": "python",
-  "packageName": "variable_inspector",
-  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package variable_inspector"
-}
