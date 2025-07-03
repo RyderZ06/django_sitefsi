@@ -19,7 +19,7 @@
 
 ## Структура проекта
 | Технология                | Бейджи / Название папки / описание |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------|-------------------------------------|
 | **`Django`** | ![Django](https://img.shields.io/badge/flightsafetyinspection-основной%20модуль%20Django--проекта-brightgreen?logo=django&logoColor=white) |
 | **`Python`** | ![Python](https://img.shields.io/badge/.djvenv-виртуальное%20окружение-orange?logo=python&logoColor=white) |  
 | **`Python`** | ![Python](https://img.shields.io/badge/requirements.txt-список%20зависимостей%20проекта-blue?logo=python&logoColor=white) |
@@ -51,3 +51,6 @@
 
 ## Запуск
 ![Run Server](https://img.shields.io/badge/запуск%20сайта-python%20manage.py%20runserver-brightgreen)
+
+## Commands
+**создать новый проект командой:** `django-admin startproject myproject`
