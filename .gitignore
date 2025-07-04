@@ -11,6 +11,11 @@ __pycache__/
 # C extensions
 *.so
 
+# My Files
+tatus/
+
+
+
 # Distribution / packaging
 .Python
 build/
