@@ -1117,3 +1117,4 @@ c = get_config()  #noqa
 # c.ServerApp.websocket_url = ''
 
 c.ContentsManager.allow_hidden = True
+c.LatexConfig.latex_command = 'pdflatex'

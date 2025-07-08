@@ -1,0 +1,9 @@
+{
+  "autoOpen": true,
+  "latexCommand": "pdflatex",
+  "latexArgs": [
+    "-interaction=nonstopmode",
+    "-synctex=1"
+  ],
+  "viewer": "pdfjs"
+}
