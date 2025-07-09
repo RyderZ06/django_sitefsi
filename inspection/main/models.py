@@ -32,13 +32,15 @@ class Gender(models.Model):
 
     class Meta:
         ordering = ('name',)
+        verbose_name = 'Гендер'
+        verbose_name_plural = 'Гендер'
 
     def __str__(self):
         return self.name
 
 class Employee(models.Model):
     name = models.CharField(max_length=100, db_index=True)
-    slug = models.SlugField(max_length=100, unique=100)
+    slug = models.SlugField(max_length=100, unique=True)
     job_title = models.ForeignKey(JobTitle, related_name='employees', on_delete=models.PROTECT)
     department = models.ForeignKey(Department, related_name='employees', on_delete=models.PROTECT)
     gender = models.ForeignKey(Gender, related_name='employees', on_delete=models.PROTECT)
@@ -50,6 +52,8 @@ class Employee(models.Model):
 
     class Meta:
         ordering = ('name',)
+        verbose_name = 'Сотрудник'
+        verbose_name_plural = 'Сотрудники'
 
     def __str__(self):
         return self.name
